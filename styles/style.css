@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+   margin: 0;
+   padding: 0;
+}
+.section-01-container {
+    background:linear-gradient(to right, #3EA9FF, #42D0FE);
+    height: auto;
+}
+.app-icon {
+    font-size: 30px;
+    margin-left: 15rem;
+    padding-right: 1rem;
+}
+.navbar-collapse {
+    color: black;
+}
+.nav-item {
+    color: black;
+}
+.btn-load-more {
+    background-color: #fff;
+}
+.col {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   height: 100vh;
+   
+}
+.column-items {
+    padding: 0 0 0 30%;
+    color: #fff;
+    
+}
+.mobile-image {
+    margin-right: 35%;
+    transform: rotate(-30deg);
+    transform: translateX(25deg);
+    
+}
+
+.second-section {
+    padding: 7% 15%;
+}
+.icons {
+    
+    align-items: center;
+    justify-content: center;
+    
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    margin: 9px;
+    text-align: center;
+
+    font-size: 12px;
+}
+.icon {
+    font-size:60px ;
+}
+
+
+/* third section */
+.third-section {
+    background-color: aqua;
+    height: auto;
+}
+
+.third-sec-items {
+    padding: 12% 10%;
+}
+.third-sec-img {
+    padding: 12% 12% 12% 0;
+}
+
+
+/* Fourth section */
+.fourth-section {
+    background-color: bisque;
+    padding: 10% 0;
+}
+
+
+/* fifth-section */
+.video {
+    width: 100%;
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.video-sec::after {
+    content: "";
+}
+
+.fifth-sec-text {
+   
+   text-align: end;
+   position: relative;
+   top: -100px;
+   right: 0;
+   padding: 10px 20px;
+   color: #fff; 
+
+}
